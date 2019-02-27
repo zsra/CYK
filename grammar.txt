@@ -1,0 +1,9 @@
+S
+S->AB
+A->CA
+A->SS
+B->CD
+A->b
+D->a
+C->c
+C->b
