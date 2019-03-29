@@ -7,7 +7,7 @@ The standard version of CYK operates only on context-free grammars given in Chom
 
 ----Info------
 
-Grammar format must be start with the Base Symbol like S. 
+Grammar format must be starts with the Base Symbol like S. 
 Grammar Format:
 
 |Non-Terminal| -> |Non-Terminal||Non-Terminal|
