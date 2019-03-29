@@ -13,6 +13,9 @@ public class Input {
     public static String StartSymbol;
     public static String InputString;
 
+    /**
+     * grammar location
+     */
     private static String LocationOfGrammar = "grammar.txt";
 
     public static void Run(){
@@ -20,12 +23,18 @@ public class Input {
         ReadFile();
     }
 
+    /**
+     * Get string input from console.
+     */
     private static void GetInput(){
         System.out.println("Add input");
         Scanner scanner_input = new Scanner(System.in);
         InputString = scanner_input.next();
     }
 
+    /**
+     * Read grammar from text file
+     */
     public static void ReadFile(){
         try(BufferedReader br = new BufferedReader(new FileReader(LocationOfGrammar))) {
             StartSymbol = br.readLine();
